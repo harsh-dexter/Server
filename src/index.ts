@@ -1,3 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config(); // Load environment variables from .env file
+
 import { InitGraphqlServer } from "./graphql/index";
 import { connectDB } from './db';
 import { Category } from './models/Category';
